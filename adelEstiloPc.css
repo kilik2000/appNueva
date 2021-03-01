@@ -1,0 +1,317 @@
+
+		@media screen and (min-width:1040px){
+
+		
+		main{
+			
+			display:block;
+			margin:auto;
+		
+		width:1024px;
+			height:130em;
+			position:relative;
+			 box-sizing: border-box;
+			
+		}
+		
+		header{
+		
+			height:302px;
+		
+		
+			position:relative;
+			background-color:#ca005d;
+	
+		
+			box-sizing: border-box;
+		
+			
+		}
+		#header{
+			width:1024px;
+			height:300px;
+			margin:auto;
+			padding:auto;
+			position:relative;
+			background-color:#ca005d;
+			display:flex;
+	
+			box-sizing: border-box;
+			
+			
+		}
+		#header > h1{
+			position:absolute;
+			top:0;
+			left:0;
+			color:#000;
+			font-size:0;
+			width:40%;
+			height:280px;
+		
+		
+			box-sizing: border-box;
+			text-indent: 20px;
+			overflow: hidden;
+			text-align:center;
+			
+			
+		}
+		#header > h1> a{
+			top:0;
+			left:0;
+			color:#000;
+			font-size:0;
+			width:100%;
+			display:block;
+			height:280px;
+			background:url(formatos/logo-01.png) no-repeat center center;
+		
+			box-sizing: border-box;
+			text-indent: 20px;
+			overflow: hidden;
+			text-align:center;
+			
+			
+		}
+		nav{
+			
+			display:block;
+			width:600px;
+			height:300px;
+			padding:auto;
+			height:300px;
+			position:absolute;
+			top:0;
+			right:0;
+			bottom:0;
+		
+				box-sizing: border-box;
+		}
+		#menu{
+			display:none;
+		}
+		#botones{
+			width:100%;
+			height:100%;
+			display:flex;
+	
+				box-sizing: border-box;
+		}
+		#botones li{
+			width:25%;
+			display:inline-flex;
+		
+				box-sizing: border-box;
+		}
+		#botones li a{
+			width:100%;
+			display:block;
+			color:#ffffff;
+		
+				box-sizing: border-box;
+				text-align:center;
+				line-height:17em;
+		}
+		#botones li a:hover{
+			
+			background-color:#000000;
+		}
+		section:nth-child(1) {
+				width:1024px;
+				display:flex;
+			height: 301px;
+			margin:0px auto;
+			position: relative;
+			 box-sizing: border-box;
+			 	overflow:hidden;
+				z-index:11;
+			 
+		}
+		
+	
+		section:nth-child(1) img{
+	
+			opacity: 1;
+	
+			 
+			position: absolute;
+
+			top: 0;
+			left: 0;
+			right:0;
+			
+			-moz-animation: rotacion_banners 12s infinite 0s ease-in-out;
+			-webkit-animation: rotacion_banners 12s infinite 0s ease-in-out;
+			animation: rotacion_banners 12s infinite 0s ease-in-out;
+	
+		}
+		
+		#uno{   -moz-animation-delay: 8s; -webkit-animation-delay:8s; animation-delay:8s; }
+		#dos{ -moz-animation-delay: 6s; -webkit-animation-delay:6s; animation-delay:6s; }
+		#tres{ -moz-animation-delay: 4s; -webkit-animation-delay:4s; animation-delay:4s; }
+		#cuatro{ -moz-animation-delay: 2s; -webkit-animation-delay:2s; animation-delay:2s;}
+		#cinco{ -moz-animation-delay: 0s; -webkit-animation-delay:0s; animation-delay:0s; }
+		
+		
+		#pastilla{
+			margin-top:10px;
+			width:calc(50% - 2em);
+			display:flex;
+			right:0;
+			
+		
+			position:absolute;
+		}
+
+				.contenedor{
+					position:relative;
+					width:100%;
+					overflow:hidden;
+		
+				}
+				.boton {
+				   width:300px;
+				   height: 300px;
+					margin:1em 0;
+				 
+				   border: 1em solid #fff;
+				   overflow: hidden;
+				   position: relative;
+				   text-align: center;
+				float:right;
+				   cursor: default;
+				  
+				}
+		
+				.pastilla{
+					width: 300px;
+				   height: 300px;
+				   position: absolute;
+				   overflow: hidden;
+				   top: 0;
+				   left: 0;
+				   background-color: #ca005d;
+				   opacity: 0;
+				   text-align: center;
+				   transition: all 0.5s linear;
+				   opacity: 0;
+				}
+				.pastilla p{
+					
+				   font-size:1.7em;
+					margin:2em 1em 0 1em;
+					
+				   color:#ffffff;
+				   opacity: 0;
+				  
+				 transition: all 0.5s linear;
+			
+					
+			
+				}
+				.boton img {
+				   display: block;
+				   position: relative;
+				}
+				.boton:hover img {
+				   opacity: 0;
+				}
+				.boton:hover .pastilla{
+				   opacity: 1;
+				}
+
+				.boton:hover img, .pastilla:hover ,.pastilla:hover p {
+				 
+				 
+				   opacity: 1;
+				}
+					
+	
+		
+		
+	#formulario{
+		
+			margin-top:10px;
+			margin-bottom:15px;
+			border:10px solid #ffffff;
+			color:#ffffff;
+			 font-family: 'MasonAlter_Bold';
+			width:50%;
+			
+			position:relative;
+			left:0;
+
+			
+		}
+		#formulario p{
+			margin:1em;
+		}
+		form{
+			margin:auto;
+			padding:1em;
+			width:calc(100% - 40px);
+			display:block;
+			align-items:center;
+		}
+		label{
+			width:calc(100% - 20px);
+			display:block;
+			font-size:1.5em;
+			
+		}
+		input{
+			display:block;
+			
+			
+		}
+		textarea{
+			width:60%;
+			height:5em;
+			display:block;
+			resize: none;
+			
+		}
+		
+		
+		#parrafo{
+			width:50%;
+			margin-left:1vw;
+			height:850px;
+			left:0;
+			color:#ffffff;
+			position:relative;
+		
+		}
+		#parrafo p{
+				font-size:1.5em;
+				margin:20px 30px;
+		
+		}
+		
+		#footer{
+			width:1024px;
+			height:400px;
+			margin:auto;
+		}
+		#footer p{
+			font-size:3em;
+			padding:0.5em 1.5em;
+			text-align:center;
+			
+		}
+		#links{
+			margin:1em 0 0 1em;
+		}
+		#links li {
+			margin-bottom:0.9em;
+			font-size:1.5em;
+			border-bottom:2px solid #760000;
+		}
+		#links li a{
+			display:block;
+			width:100%;
+			height:100%;
+			
+		}
+		}
